@@ -2,10 +2,25 @@
     color: var(--accent-color);
 }
 
-.last-part {
+.logo {
+    display: inline-flex;
     color: #000000;
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+   
 }
+
+.logo--margin-right{
+    margin-right: 93px;
+}
+
+.logo--margin-bottom{
+    margin-bottom: 20px;
+}
+.logo--white{
+    color: #ffffff;
+}
+
+

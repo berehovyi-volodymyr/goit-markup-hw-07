@@ -1,21 +1,13 @@
-.conteiner.all-nav > a {
-	margin-right: 93px;
-}
-
-.conteiner.all-nav {
-	display: flex;
-	align-items: center;
-}
 
 .nav {
 	display: flex;
 }
 
-.nav .item:not(:last-child) {
+.nav__item:not(:last-child) {
 	margin-right: 50px;
 }
 
-.nav .nav-item {
+.nav__page {
 	color: var(--tittle-color);
 	font-weight: 500;
 	font-size: 14px;
@@ -29,7 +21,7 @@
 	}
 }
 
-.nav-item.current {
+.nav__item--current {
 	color: var(--accent-color);
 	position: relative;
 

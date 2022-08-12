@@ -4,17 +4,16 @@
 	padding-bottom: 60px;
 }
 
-.footer .conteiner {
+.footer__conteiner {
 	display: flex;
 	align-items: baseline;
+	margin: 0 auto;
+	width: 1200px;
+	padding: 0 15px;
 }
 
-.footer .link.last-part {
-	display: block;
-	margin-bottom: 20px;
-}
 
-.address .location {
+.address__location {
 	color: #ffffff;
 	font-style: normal;
 	font-size: 14px;
@@ -27,11 +26,11 @@
 	}
 }
 
-.address .address-item:not(:last-child) {
+.address__item:not(:last-child) {
 	margin: 0 0 9px 0;
 }
 
-.address .address-contacts {
+.address__contacts {
 	color: rgba(255, 255, 255, 0.6);
 	font-style: normal;
 	font-size: 14px;
@@ -44,15 +43,11 @@
 	}
 }
 
-.footer .last-part {
-	color: #ffffff;
-}
-
 .join {
 	margin-left: 70px;
 }
 
-.join-title {
+.join__title {
 	margin-top: 0;
 	margin-bottom: 20px;
 	font-size: 14px;
@@ -62,42 +57,14 @@
 	color: #ffffff;
 }
 
-.footer-social-links {
-	display: flex;
-	flex-direction: row;
-}
-
-.footer-social-item:not(:last-child) {
-	margin-right: 10px;
-}
-
-.footer-social-link {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	width: 44px;
-	height: 44px;
-	border-radius: 50%;
+.social-links__link--background{
 	background-color: rgba(255, 255, 255, 0.1);
-	transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-	&:hover,
-	&:focus {
-		background-color: var(--accent-color);
-	}
 }
 
-
-.footer-social-link:hover .icon,
-.footer-social-link:focus .icon {
+.social-links__icon--color{
 	fill: #ffffff;
 }
 
-.footer-social-link .icon {
-	fill: #ffffff;
-	width: 20px;
-	height: 20px;
-}
 
 .sign-up-conteiner {
 	margin-left: 93px;
@@ -107,12 +74,12 @@
 	display: inline-flex;
 }
 
-.sign-up-form {
+.sign-up__form {
 	display: flex;
 	flex-direction: column;
 }
 
-.sign-up-label {
+.sign-up__label {
 	margin-bottom: 20px;
 	font-weight: 700;
 	font-size: 14px;
@@ -120,7 +87,7 @@
 	color: #ffffff;
 }
 
-.sign-up-field {
+.sign-up__field {
 	padding: 14px;
 	width: 358px;
 	background-color: #2f303a;
@@ -134,7 +101,7 @@
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.sign-up-button {
+.sign-up__button {
 	display: inline-flex;
 	align-self: flex-end;
 	align-items: center;
@@ -153,7 +120,7 @@
 	color: #ffffff;
 }
 
-.icon-send {
+.sign-up__icon-send {
 	margin-left: 10px;
 	width: 24px;
 	height: 24px;

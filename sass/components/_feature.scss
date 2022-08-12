@@ -1,17 +1,17 @@
-.main-feature {
+.feature {
     padding-top: 94px;
     padding-bottom: 94px;
 }
 
-.feature {
+.feature__list {
     display: flex;
 }
 
-.feature .feaure-item:not(:last-child) {
+.feaure__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.icon-space {
+.feature__icon-space {
     display: flex;
     width: 270px;
     height: 120px;
@@ -23,12 +23,12 @@
     margin-bottom: 30px;
 }
 
-.feature-icon {
+.feature__icon {
     width: 70px;
     height: 70px;
 }
 
-.feature .feature-title {
+.feature__title {
     margin-top: 0;
     margin-bottom: 10px;
     color: var(--tittle-color);
@@ -37,7 +37,7 @@
     text-transform: uppercase;
 }
 
-.feature .feature-text {
+.feature__text {
     margin: 0;
     font-size: 14px;
     line-height: 1.71;

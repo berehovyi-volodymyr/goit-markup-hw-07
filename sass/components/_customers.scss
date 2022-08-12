@@ -1,14 +1,14 @@
-.regular-customers {
+.customers {
 	padding-top: 94px;
 	padding-bottom: 94px;
 }
 
-.clients {
+.customers__list {
 	display: flex;
 	justify-content: space-between;
 }
 
-.company {
+.customers__company {
 	display: block;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
@@ -21,13 +21,13 @@
 	}
 }
 
-.company:hover .icon,
-.company:focus .icon {
-	fill: var(--accent-color);
-}
-
-.client .icon {
+.customers__icon {
 	fill: #afb1b8;
 	width: 106px;
 	height: 60px;
+
+	.customers__company:hover &,
+	.customers__company:focus & {
+		fill: var(--accent-color);
+	}
 }

@@ -10,24 +10,24 @@
     padding-bottom: 94px;
 }
 
-.images {
+.pictures__list {
     display: flex;
 }
 
-.wrapper-image {
+.pictures__wrapper {
     position: relative;
 }
 
-.image {
+.pictures__image {
     display: block;
     z-index: 1;
 }
 
-.images .images-item:not(:last-child) {
+.pictures__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.images-text {
+.pictures__text {
     position: absolute;
     bottom: 0;
     z-index: 2;
